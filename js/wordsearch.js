@@ -26,7 +26,7 @@
     // Default settings
     var default_settings = {
       'directions': ['W', 'N', 'WN', 'EN'],
-      'gridSize': 18,
+      'gridSize': 14,
       'words': [
 	     'truth',
 		'bond',
@@ -58,7 +58,7 @@
       var isWorked = false;
 	  
 	  if (this.settings.test) {
-			this.words = ['browser'];
+			this.words = ['kinship'];
 	  }
 	
       while (isWorked == false) {
