@@ -49,7 +49,7 @@
     }
 
     this.settings = Object.merge(settings, default_settings);
-    this.settings.condition = 5;   //need to remove this
+    //this.settings.condition = 5;   //need to remove this
    
 	
     // Check the words length if it is overflow the grid
