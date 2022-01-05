@@ -284,7 +284,7 @@
   WordSeach.prototype.testmatrix = function(size) {
     var test_matrix = [
 	['.','.','.','.','.','.','.','.','.'],
-	['.','B','R','O','W','S','E','R','.'],
+	['.','K','I','N','S','H','I','P','.'],
 	['.','.','.','.','.','.','.','.','.']
 	];
 	for (var row = 0; row<3; row++) {
