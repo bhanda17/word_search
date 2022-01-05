@@ -364,7 +364,7 @@
 	var csize = size;
 	var rsize = size;
 	if (this.settings.condition > 2) { 
-		csize = 11; 
+		csize = 14; 
 		rsize = 14;
 	}
 	
@@ -379,7 +379,7 @@
 		} 
 	     if(this.settings.condition == 1) {
 			var item = {
-			letter: impossible_matrix [row][col], // Default value
+			letter: control_matrix [row][col], // Default value
 			row: row,
 			col: col
 			}
@@ -387,7 +387,7 @@
 	     
 	     if(this.settings.condition == 4) {
 			var item = {
-			letter: neutral_matrix [row][col], // Default value
+			letter: control_matrix [row][col], // Default value
 			row: row,
 			col: col
 			}
@@ -396,7 +396,7 @@
 	     
 	     if(this.settings.condition == 5) {
 			var item = {
-			letter: power_matrix  [row][col], // Default value
+			letter: control_matrix  [row][col], // Default value
 			row: row,
 			col: col
 			}
